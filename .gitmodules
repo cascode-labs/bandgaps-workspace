@@ -1,0 +1,12 @@
+[submodule "bandgaps"]
+	path = bandgaps
+	url = https://github.com/cascode-labs/bandgaps.git
+[submodule "Hdl21"]
+	path = Hdl21
+	url = https://github.com/cascode-labs/Hdl21.git
+[submodule "Vlsir"]
+	path = Vlsir
+	url = https://github.com/cascode-labs/Vlsir.git
+[submodule "OpenFASOC"]
+	path = OpenFASOC
+	url = https://github.com/cascode-labs/OpenFASOC.git
