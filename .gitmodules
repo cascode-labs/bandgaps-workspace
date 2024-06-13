@@ -10,3 +10,6 @@
 [submodule "OpenFASOC"]
 	path = OpenFASOC
 	url = https://github.com/cascode-labs/OpenFASOC.git
+[submodule "viper"]
+	path = viper
+	url = https://github.com/cascode-labs/viper

@@ -1,2 +1,3 @@
 # bandgaps-workspace
-workspace for the bandgaps project
+Workspace 
+for the bandgaps project
