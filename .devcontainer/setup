@@ -10,10 +10,11 @@ git submodule update
 
 # Vlsir Dev Install
 apt-get update
-apt install -y protobuf-compiler
-apt install 2to3
-apt install python3-lib2to3
-apt install python3-toolz
+# apt install -y protobuf-compiler
+# apt install 2to3
+# apt install python3-lib2to3
+# apt install python3-toolz
+uv pip install -e ./Vlsir/VlsirDev
 cd /workspaces/bandgaps-workspace/Vlsir
 ./scripts/build_python.sh
 uv pip install -e /workspaces/bandgaps-workspace/Vlsir/VlsirTools

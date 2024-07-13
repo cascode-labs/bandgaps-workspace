@@ -4,9 +4,12 @@
    "csv-edit.initiallyFixedRowsTop": 1,
    "csv-edit.initiallyFixedColumnsLeft": 1,
    "csv-edit.writeOption_hasHeader": "true",
-   "python.testing.pytestArgs": [
-      "bandgaps/tests"
-   ],
-   "python.testing.unittestEnabled": false,
-   "terminal.integrated.cwd": "bandgaps"
+   "files.exclude": {
+        "bandgaps": true,
+        "Hdl21": true,
+        "Vlsir": true,
+        "OpenFASOC": true,
+        "viper": true
+      },
+    "python.testing.unittestEnabled": false
 }
