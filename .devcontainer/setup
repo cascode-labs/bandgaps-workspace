@@ -6,6 +6,7 @@ uv venv .venv
 # shellcheck source=/dev/null
 source .venv/bin/activate
 git config --global --add safe.directory "*"
+git submodule init
 git submodule update
 
 # Vlsir Dev Install
